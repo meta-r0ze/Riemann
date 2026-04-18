@@ -1,0 +1,93 @@
+==================================================
+ E8-VACUUM EXACT ZERO HUNTER (HILBERT-PÓLYA LAB)
+==================================================
+
+Derived Z_MAR (Margin) : 2.90770367e-06
+Derived J_CP  (CP-Phase): 3.08489953e-05
+
+--- SPARSE EXPERIMENT: Prime Logarithmic Defects (L=1849) ---
+Extracting lowest 1500 eigenvalues using Sparse Lanczos...
+
+Found 32 distinct macroscopic bands.
+Global Scaling Factor applied: 2481.28
+  Zero  1: 15.5234  (True: 14.1347) | Diff: +1.3887
+  Zero  2: 22.8978  (True: 21.0220) | Diff: +1.8758
+  Zero  3: 31.3795  (True: 25.0109) | Diff: +6.3687
+  Zero  4: 36.5150  (True: 30.4249) | Diff: +6.0901
+  Zero  5: 38.6411  (True: 32.9351) | Diff: +5.7060
+  Zero  6: 41.0763  (True: 37.5862) | Diff: +3.4901
+  Zero  7: 45.2066  (True: 40.9187) | Diff: +4.2879
+  Zero  8: 46.8816  (True: 43.3271) | Diff: +3.5546
+  Zero  9: 48.7390  (True: 48.0052) | Diff: +0.7338
+  Zero 10: 50.0700  (True: 49.7738) | Diff: +0.2962
+  Zero 11: 51.8343  (True: 52.9703) | Diff: -1.1361
+  Zero 12: 56.3949  (True: 56.4462) | Diff: -0.0513
+  Zero 13: 58.1398  (True: 59.3470) | Diff: -1.2072
+  Zero 14: 59.4931  (True: 60.8318) | Diff: -1.3387
+  Zero 15: 61.2102  (True: 65.1125) | Diff: -3.9024
+  Zero 16: 64.0152  (True: 67.0798) | Diff: -3.0646
+  Zero 17: 65.2781  (True: 69.5464) | Diff: -4.2683
+  Zero 18: 68.7195  (True: 72.0672) | Diff: -3.3477
+  Zero 19: 74.8126  (True: 75.7047) | Diff: -0.8921
+  Zero 20: 76.6281  (True: 77.1448) | Diff: -0.5167
+>> Mean Absolute Error (Zeros 2-20): 2.7436
+Elapsed time: 2273.74 seconds
+
+--- SPARSE EXPERIMENT: Uniform Pristine Vacuum (L=1849) ---
+Extracting lowest 1500 eigenvalues using Sparse Lanczos...
+Found 22 distinct macroscopic bands.
+Global Scaling Factor applied: 1685.33
+  Zero  1: 36.2852  (True: 14.1347) | Diff: +22.1505
+  Zero  2: 37.6167  (True: 21.0220) | Diff: +16.5947
+  Zero  3: 38.4788  (True: 25.0109) | Diff: +13.4679
+  Zero  4: 39.5300  (True: 30.4249) | Diff: +9.1051
+  Zero  5: 40.7558  (True: 32.9351) | Diff: +7.8207
+  Zero  6: 42.1408  (True: 37.5862) | Diff: +4.5546
+  Zero  7: 43.6701  (True: 40.9187) | Diff: +2.7513
+  Zero  8: 45.3290  (True: 43.3271) | Diff: +2.0019
+  Zero  9: 47.1038  (True: 48.0052) | Diff: -0.9013
+  Zero 10: 48.9821  (True: 49.7738) | Diff: -0.7917
+  Zero 11: 50.9524  (True: 52.9703) | Diff: -2.0179
+  Zero 12: 53.0045  (True: 56.4462) | Diff: -3.4418
+  Zero 13: 55.1293  (True: 59.3470) | Diff: -4.2177
+  Zero 14: 57.3188  (True: 60.8318) | Diff: -3.5130
+  Zero 15: 59.5658  (True: 65.1125) | Diff: -5.5467
+  Zero 16: 61.8643  (True: 67.0798) | Diff: -5.2156
+  Zero 17: 64.2086  (True: 69.5464) | Diff: -5.3378
+  Zero 18: 66.5940  (True: 72.0672) | Diff: -5.4732
+  Zero 19: 69.0163  (True: 75.7047) | Diff: -6.6884
+  Zero 20: 71.4718  (True: 77.1448) | Diff: -5.6730
+>> Mean Absolute Error (Zeros 2-20): 5.5323
+Elapsed time: 2574.88 seconds
+
+--- SPARSE EXPERIMENT: Random Margin (CUE Chaos Limit) (L=1849) ---
+Extracting lowest 1500 eigenvalues using Sparse Lanczos...
+Found 25 distinct macroscopic bands.
+Global Scaling Factor applied: 5756.31
+  Zero  1: 0.4868  (True: 14.1347) | Diff: -13.6479
+  Zero  2: 3.3734  (True: 21.0220) | Diff: -17.6486
+  Zero  3: 8.5048  (True: 25.0109) | Diff: -16.5061
+  Zero  4: 14.3649  (True: 30.4249) | Diff: -16.0600
+  Zero  5: 18.4429  (True: 32.9351) | Diff: -14.4921
+  Zero  6: 22.2099  (True: 37.5862) | Diff: -15.3763
+  Zero  7: 26.6304  (True: 40.9187) | Diff: -14.2883
+  Zero  8: 30.7027  (True: 43.3271) | Diff: -12.6244
+  Zero  9: 34.9401  (True: 48.0052) | Diff: -13.0650
+  Zero 10: 40.8168  (True: 49.7738) | Diff: -8.9570
+  Zero 11: 44.6089  (True: 52.9703) | Diff: -8.3614
+  Zero 12: 53.0692  (True: 56.4462) | Diff: -3.3770
+  Zero 13: 56.9241  (True: 59.3470) | Diff: -2.4229
+  Zero 14: 61.0789  (True: 60.8318) | Diff: +0.2471
+  Zero 15: 65.5685  (True: 65.1125) | Diff: +0.4559
+  Zero 16: 68.4893  (True: 67.0798) | Diff: +1.4095
+  Zero 17: 75.2829  (True: 69.5464) | Diff: +5.7364
+  Zero 18: 78.7748  (True: 72.0672) | Diff: +6.7077
+  Zero 19: 86.6431  (True: 75.7047) | Diff: +10.9384
+  Zero 20: 91.1527  (True: 77.1448) | Diff: +14.0078
+>> Mean Absolute Error (Zeros 2-20): 9.6148
+Elapsed time: 1777.78 seconds
+
+==================================================
+Analysis Complete.
+The distribution that minimizes the Mean Absolute Error represents
+the true topological defect structure of the persistent vacuum.
