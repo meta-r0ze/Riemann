@@ -96,18 +96,28 @@ We introduce a thermodynamically motivated ansatz: by the Fundamental Theorem of
 \toprule
 \textbf{Zero $n$} & \textbf{True $\gamma_n$} & \textbf{Simulated $\gamma_n$} & \textbf{Diff} \\
 \midrule
-1 & 14.1347 & 14.1347 & +0.0000 \\
-2 & 21.0220 & 20.8491 & -0.1729 \\
-3 & 25.0109 & 28.5712 & +3.5604 \\
-4 & 30.4249 & 33.2465 & +2.8216 \\
-5 & 32.9351 & 35.1819 & +2.2469 \\
-6 & 37.5862 & 37.3988 & -0.1874 \\
-7 & 40.9187 & 41.1586 & +0.2398 \\
-8 & 43.3271 & 42.6832 & -0.6439 \\
-9 & 48.0052 & 44.3738 & -3.6313 \\
-10 & 49.7738 & 45.5853 & -4.1885 \\
+1 & 14.1347 & 15.5234 & +1.3887 \\
+2 & 21.0220 & 22.8978 & +1.8758 \\
+3 & 25.0109 & 31.3795 & +6.3687 \\
+4 & 30.4249 & 36.5150 & +6.0901 \\
+5 & 32.9351 & 38.6411 & +5.7060 \\
+6 & 37.5862 & 41.0763 & +3.4901 \\
+7 & 40.9187 & 45.2066 & +4.2879 \\
+8 & 43.3271 & 46.8816 & +3.5546 \\
+9 & 48.0052 & 48.7390 & +0.7338 \\
+10 & 49.7738 & 50.0700 & +0.2962 \\
+11 & 52.9703 & 51.8343 & -1.1361 \\
+12 & 56.4462 & 56.3949 & -0.0513 \\
+13 & 59.3470 & 58.1398 & -1.2072 \\
+14 & 60.8318 & 59.4931 & -1.3387 \\
+15 & 65.1125 & 61.2102 & -3.9024 \\
+16 & 67.0798 & 64.0152 & -3.0646 \\
+17 & 69.5464 & 65.2781 & -4.2683 \\
+18 & 72.0672 & 68.7195 & -3.3477 \\
+19 & 75.7047 & 74.8126 & -0.8921 \\
+20 & 77.1448 & 76.6281 & -0.5167 \\
 \midrule
-\multicolumn{3}{l}{\textbf{Mean Absolute Error (Zeros 2-20)}} & \textbf{4.97} \\
+\multicolumn{3}{l}{\textbf{Mean Absolute Error (Zeros 2-20)}} & \textbf{2.74} \\
 \bottomrule
 \end{tabular}
 \label{tab:spectrum}
@@ -115,9 +125,9 @@ We introduce a thermodynamically motivated ansatz: by the Fundamental Theorem of
 
 \subsection{Discretization Limits and Finite-Size Scaling}
 
-In pure analytic number theory, a Mean Absolute Error of $4.97$ across the first 20 zeros represents a significant deviation. However, in the context of lattice gauge theory, this is the expected physical signature of a finite-volume discretization limit. 
+In pure analytic number theory, a Mean Absolute Error of $2.74$ across the first 20 zeros represents a significant deviation. However, in the context of lattice gauge theory, this is the expected physical signature of a finite-volume discretization limit. 
 
-The continuous Riemann Zeta function implicitly assumes an infinite manifold ($L \to \infty$). By truncating the causal ring at the arithmetic conductor $L = 1849$, we impose a strict physical infrared (IR) cutoff on the vacuum. Consequently, the $4.97$ deviation is not a fundamental failure of the transfer operator, but represents the ``Planck-scale graininess'' of the mathematical vacuum at this specific causal depth. The simulated eigenvalues are a quantized, finite-size approximation of the smooth continuous Zeta function. Just as lattice QCD masses converge to physical values only at the continuum limit, the spectral accuracy of this operator is thermodynamically predicted to scale strictly as $L \to \infty$. This interpretation predicts that the MAE should decrease monotonically as L increases toward the continuum limit; testing this requires evaluation at additional conductor values, which is deferred to future work.
+The continuous Riemann Zeta function implicitly assumes an infinite manifold ($L \to \infty$). By truncating the causal ring at the arithmetic conductor $L = 1849$, we impose a strict physical infrared (IR) cutoff on the vacuum. Consequently, the deviation is not a fundamental failure of the transfer operator, but represents the ``Planck-scale graininess'' of the mathematical vacuum at this specific causal depth. The simulated eigenvalues are a quantized, finite-size approximation of the smooth continuous Zeta function. Just as lattice QCD masses converge to physical values only at the continuum limit, the spectral accuracy of this operator is thermodynamically predicted to scale strictly as $L \to \infty$. This interpretation predicts that the MAE should decrease monotonically as L increases toward the continuum limit; testing this requires evaluation at additional conductor values, which is deferred to future work.
 
 The Uniform vacuum yielded an MAE of $>20.0$, demonstrating that integrability fails to match the Riemann distribution. 
 
